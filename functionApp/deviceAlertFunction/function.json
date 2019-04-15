@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "g5-iothub-queue",
+      "connection": "g5-service-bus_SERVICEBUS"
+    }
+  ]
+}
